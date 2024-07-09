@@ -15,6 +15,7 @@ npm i
 ```
 
 3. Tener nest CLI instalado
+
 ```
 npm i -g @nestjs/cli
 ```
@@ -24,11 +25,15 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-5. Ejecutar seed para generar datos
+
+5. Clonar el archivo **.env.template** y renombrar la copia a **.env**
+6. Llenar las variables de entorno definidas en el `.env`
+7. Ejecutar seed para generar datos
 
 ```
 localhost:3000/api/v2/seed
 ```
+
 ## Stack usado
 
 - MongoDB
